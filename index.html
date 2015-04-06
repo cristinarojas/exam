@@ -8,13 +8,14 @@
 
         <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
     </head>
 
     <body>
         <div id="background"></div>
 
-        <div class="container">
-            <section class="content-left clearfix">
+        <div class="container ">
+            <div class="content-left">
                 <div class="content-left-wraper">
                     <h1 class="logo">ZaveApp</h1>
                     <span class="logo-span1">Save as</span>
@@ -24,20 +25,25 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ex dignissim, faucibus enim sit amet, laoreet diam. Nulla nec est tempor, scelerisque mi ac. laoreet diam. Nulla nec est tempor, scelerisque
                     </p>
                 </div>
-                <div>
-                    <img src="images/arrow.png" class="arrow" />
+
+                <div class="arrow">
+                    <img src="images/arrow.png" />
                 </div>
-                <div>
-                    <a href="#" class="ios"><img src="images/ios.png" /></a>
+
+                <div class="ios">
+                    <a href="#"><img src="images/ios.png" /></a>
                 </div>
-                <div>
+
+                <div class="android">
                     <a href="#"><img src="images/android.png" /></a>
                 </div>
-            </section>
+            </div>
 
-            <section class="content-rigth">
-
-            </section>
+            <div class="content-right">
+                <div class="phone">
+                    <img src="images/phone.png" alt="Phone" />
+                </div>
+            </div>
         </div>
 
         <footer class="clearfix">
@@ -45,7 +51,7 @@
                 <span>ZaveApp 2015 &reg;</span>
                 <span>Ver términos y condiciones</span>
             </div>
-            <div class="footer-rigth">
+            <div class="footer-right">
                 <i class="email-icon"></i>
                 <input id="email" class="email" type="text" placeholder="Escribe tu email"  />
                 <button id="submit" class="submit">Enviar</button>

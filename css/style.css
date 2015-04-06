@@ -23,7 +23,6 @@ html, body {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -41,13 +40,20 @@ body {
     width: 100%;
     height: auto;
     min-height: 100%;
-    margin: 0 auto -260px;
+    margin: 0 auto -140px;
+}
+
+.content-right {
+    float: left;
+    width: 45%;
 }
 
 .content-left {
-    width: 30%;
+    float: left;
+    width: 40%;
+    height: auto;
+    min-height: 100%;
     padding-left: 10%;
-    margin-bottom: 120px;
 }
 
 .content-left-wraper {
@@ -92,8 +98,8 @@ span.logo-span2 {
 .arrow {
     width: 33px;
     height: 76px;
-    float: right;
-    border:none;
+    float: left;
+    margin-left: 20px;
     padding-top: 13px;
 }
 
@@ -106,8 +112,14 @@ span.logo-span2 {
     width: 130px;
 }
 
-.ios {
+.ios a {
     margin-right: 45px;
+}
+
+.phone img {
+    position: absolute;
+    width: 55%;
+    top: 40px;
 }
 
 footer {
@@ -131,7 +143,7 @@ footer span {
     padding-top: 55px;
 }
 
-.footer-rigth {
+.footer-right {
     width: 50%;
     float: right;
     padding-top: 46px;

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1024px) {
+    .phone img {
+        top: 110px;
+    }
+
+    input.email {
+        width: 180px;
+    }
+
+    button.submit {
+        width: 180px;
+    }
+}
