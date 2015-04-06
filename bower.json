@@ -1,0 +1,9 @@
+{
+    "name": "ZaveApp",
+    "version": "0.0.1",
+    "author": "Cristina Rojas",
+    "license": "MIT",
+    "dependencies": {
+        "normalize.css": "*"
+    }
+}
