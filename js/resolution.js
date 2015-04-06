@@ -1,11 +1,6 @@
-var background = false;
 var screenWidth = window.screen.width;
 
 if (screenWidth <= 1280) {
-    background = true;
-}
-
-if (background) {
     var head = document.getElementsByTagName('head')[0];
     var link = document.createElement('link');
 
@@ -22,5 +17,5 @@ if (background) {
     img.src = 'images/background.jpg';
     img.alt = 'Background';
 
-    background.appendChild(img);
+    backgroundDiv.appendChild(img);
 }
