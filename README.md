@@ -1,14 +1,14 @@
 # exam
 
-1. Clone the repository:
+1 Clone the repository:
 
 `git clone https://github.com/cristinarojas/exam.git`
 
-2. Go to the project folder and then execute:
+2 Go to the project folder and then execute:
 
 `bower install`
 
-3. Open the index.html in your browser
+3 Open the index.html in your browser
 
 # Supported Browsers
 
