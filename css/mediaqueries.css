@@ -1,8 +1,5 @@
-@media only screen and (max-width: 1024px) {
-    .phone img {
-        top: 110px;
-    }
-
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)  {
     input.email {
         width: 180px;
     }
@@ -10,4 +7,39 @@
     button.submit {
         width: 180px;
     }
+
+    .phone img {
+        width: 700px !important;
+    }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .phone img {
+        top: 320px !important;
+        right: -320px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .phone img {
+        top: 60px !important;
+        right: -150px !important;
+    }
+}
+
+/* Desktop 1024 */
+@media only screen and (max-width: 1024px) {
+    .phone img {
+        top: 120px;
+        width: 550px;
+    }
+
+    input.email {
+        width: 130px;
+    }
+
+    button.submit {
+        width: 120px;
+    }
+}
+
